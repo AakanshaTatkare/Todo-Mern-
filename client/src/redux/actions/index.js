@@ -9,7 +9,7 @@ import {
   TOGGLE_TAB,
 } from "./type";
 
-const API_URL = "http://localhost:8000";
+const API_URL = "const port = process.env.PORT || 8000";
 
 export const addNewTodo = (data) => async (dispatch) => {
   try {
